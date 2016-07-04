@@ -9,5 +9,21 @@ Purpose:      A program that takes a word entered by user and
 import java.util.Scanner;
 
 public class PigLatin {
-  
+
+  public static void main(String[] args) {
+
+    // Variables:
+    String wordToChange;
+    System input = new Scanner(System.in);
+
+    // Get word from user:
+    System.out.println("Please enter the word you would like to be translated to Pig Latin: ");
+    wordToChange = input.nextLine();
+    System.out.println();
+
+    // TODO: Change the word into Pig Latin.
+    /* Pig Latin Rules:
+
+    */
+  }
 }
