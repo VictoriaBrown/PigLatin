@@ -23,7 +23,15 @@ public class PigLatin {
 
     // TODO: Change the word into Pig Latin.
     /* Pig Latin Rules:
-
+    Words that begin with consonant -> all letter before vowel go to end of word, then ay is added at end
+    Words that begin with vowel -> add yay to the end of word
     */
+
+    // Figure out if first character of string is a vowel.
+    if (wordToChange.charAt(0) = 'A') or (wordToChange.charAt(0) = 'a') or (wordToChange.charAt(0) = 'E') or
+      (wordToChange.charAt(0) = 'e') or (wordToChange.charAt(0) = 'i') or (wordToChange.charAt(0) = 'O') or
+      (wordToChange.charAt(0) = 'o') or (wordToChange.charAt(0) = 'U') or (wordToChange.charAt(0) = 'u') {
+        System.out.println(wordToChange + "yay");
+      }
   }
 }
